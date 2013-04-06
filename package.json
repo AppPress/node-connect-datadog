@@ -13,5 +13,8 @@
 	],
 	"author": "App Press",
 	"license": "MIT",
-	"readmeFilename": "README.md"
+	"readmeFilename": "README.md",
+	"dependencies": {
+		"node-dogstatsd": "0.0.4"
+	}
 }
