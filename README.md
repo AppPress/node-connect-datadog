@@ -20,6 +20,7 @@ All options are optional.
 * `path` *boolean* include path tag. `default = true`
 * `method` *boolean* include http method tag. `default = false`
 * `protocol` *boolean* include protocol tag. `default = false`
+* `statusCode` *boolean* include status codes. `default = false`
 
 ## License
 
