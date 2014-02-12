@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/AppPress/node-connect-datadog.git"
+		"url": "git://github.com/AppPress/node-connect-datadog.git#d66116059ccb3c57f1d0cf7ef5f7dfce948436b4"
 	},
 	"keywords": [
 		"datadog",
