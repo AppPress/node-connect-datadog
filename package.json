@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/AppPress/node-connect-datadog.git#d66116059ccb3c57f1d0cf7ef5f7dfce948436b4"
+		"url": "git://github.com/AppPress/node-connect-datadog.git",
 	},
 	"keywords": [
 		"datadog",
@@ -15,6 +15,6 @@
 	"license": "MIT",
 	"readmeFilename": "README.md",
 	"dependencies": {
-		"node-dogstatsd": "0.0.4"
+		"node-dogstatsd": "https://github.com/joybro/node-dogstatsd#d66116059ccb3c57f1d0cf7ef5f7dfce948436b4"
 	}
 }
