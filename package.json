@@ -15,6 +15,6 @@
 	"license": "MIT",
 	"readmeFilename": "README.md",
 	"dependencies": {
-		"node-dogstatsd": "git+ssh://git@github.com:joybro/node-dogstatsd.git#d66116059ccb3c57f1d0cf7ef5f7dfce948436b4"
+		"node-dogstatsd": "0.0.5"
 	}
 }
