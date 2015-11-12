@@ -15,6 +15,6 @@
 	"license": "MIT",
 	"readmeFilename": "README.md",
 	"dependencies": {
-		"node-dogstatsd": "0.0.5"
+		"node-dogstatsd": "0.0.6"
 	}
 }
