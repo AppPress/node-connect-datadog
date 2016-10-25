@@ -5,13 +5,13 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/AppPress/node-connect-datadog.git"
+		"url": "git://github.com/brandnetworks/node-connect-datadog.git"
 	},
 	"keywords": [
 		"datadog",
 		"middleware"
 	],
-	"author": "App Press",
+	"author": "Brand Networks",
 	"license": "MIT",
 	"readmeFilename": "README.md",
 	"dependencies": {
