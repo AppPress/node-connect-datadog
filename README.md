@@ -17,6 +17,7 @@ All options are optional.
 * `dogstatsd` node-dogstatsd client. `default = new (require("node-dogstatsd")).StatsD()`
 * `stat` *string* name for the stat. `default = "node.express.router"`
 * `tags` *array* of tags to be added to the histogram. `default = []`
+* `tags` can also be a function that takes req as the only parameter and return an array of tags
 * `path` *boolean* include path tag. `default = false`
 * `method` *boolean* include http method tag. `default = false`
 * `protocol` *boolean* include protocol tag. `default = false`
@@ -25,4 +26,3 @@ All options are optional.
 ## License
 
 View the [LICENSE](https://github.com/AppPress/node-connect-datadog/blob/master/LICENSE) file.
-
