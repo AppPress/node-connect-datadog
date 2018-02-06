@@ -18,6 +18,7 @@ All options are optional.
 * `stat` *string* name for the stat. `default = "node.express.router"`
 * `tags` *array* of tags to be added to the histogram. `default = []`
 * `path` *boolean* include path tag. `default = false`
+* `base_url` *boolean* include base url. `default = false`
 * `method` *boolean* include http method tag. `default = false`
 * `protocol` *boolean* include protocol tag. `default = false`
 * `response_code` *boolean* include http response codes. `default = false`
