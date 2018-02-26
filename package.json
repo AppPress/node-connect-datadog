@@ -7,6 +7,9 @@
 		"type": "git",
 		"url": "git://github.com/DataDog/node-connect-datadog.git"
 	},
+	"scripts": {
+		"test": "jest"
+	},
 	"keywords": [
 		"datadog",
 		"middleware"
@@ -16,5 +19,8 @@
 	"readmeFilename": "README.md",
 	"dependencies": {
 		"node-dogstatsd": "0.0.6"
+	},
+	"devDependencies": {
+		"jest": "^22.4.2"
 	}
 }
