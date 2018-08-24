@@ -15,6 +15,10 @@
 	"license": "MIT",
 	"readmeFilename": "README.md",
 	"dependencies": {
+		"express": "^4.16.3",
 		"node-dogstatsd": "0.0.6"
+	},
+	"devDependencies": {
+		"@types/express": "^4.16.0"
 	}
 }
