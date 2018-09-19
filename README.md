@@ -21,6 +21,7 @@ All options are optional.
 * `method` *boolean* include http method tag. `default = false`
 * `protocol` *boolean* include protocol tag. `default = false`
 * `response_code` *boolean* include http response codes. `default = false`
+* `response_code_grouped` *boolean* include http response codes grouped by 100, e.g. 5xx. `default = false`
 
 ## License
 
