@@ -36,12 +36,12 @@ pipeline {
     post {
         fixed {
             script {
-                shared.notifyTeams('SUCCESS', 'https://outlook.office.com/webhook/5b6e68a5-2765-4cf2-830e-ba10b5658c14@94d278d4-98ce-45e5-98f5-8a7297697dc1/JenkinsCI/c926fddf8b894afaa5b1346071aca307/13e3d529-3a09-4725-a485-38b711eb5cd8')
+                shared.notifyTeams('SUCCESS', 'https://outlook.office.com/webhook/5e7df867-fb74-47ec-ad49-0f69e9067f72@94d278d4-98ce-45e5-98f5-8a7297697dc1/JenkinsCI/f47e4d5b144f42688223d459750b8084/ad74ba70-f060-4706-97c3-22f342f4f121')
             }
         }
         failure {
             script {
-                shared.notifyTeams('FAILED', 'https://outlook.office.com/webhook/5b6e68a5-2765-4cf2-830e-ba10b5658c14@94d278d4-98ce-45e5-98f5-8a7297697dc1/JenkinsCI/c926fddf8b894afaa5b1346071aca307/13e3d529-3a09-4725-a485-38b711eb5cd8')
+                shared.notifyTeams('FAILED', 'https://outlook.office.com/webhook/5e7df867-fb74-47ec-ad49-0f69e9067f72@94d278d4-98ce-45e5-98f5-8a7297697dc1/JenkinsCI/f47e4d5b144f42688223d459750b8084/ad74ba70-f060-4706-97c3-22f342f4f121')
             }
         }
     }

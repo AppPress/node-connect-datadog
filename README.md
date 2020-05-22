@@ -7,7 +7,7 @@ Datadog middleware for Connect JS / Express
 
 Add middleware immediately before your router.
 
-	app.use(require("connect-datadog")({}));
+	app.use(require("@mergermarket/connect-datadog")({}));
 	app.use(app.router);
 
 ## Options
@@ -28,5 +28,5 @@ All options are optional.
 
 ## License
 
-View the [LICENSE](https://github.com/AppPress/node-connect-datadog/blob/master/LICENSE) file.
+View the [LICENSE](https://github.com/mergermarket/node-connect-datadog/blob/master/LICENSE) file.
 
