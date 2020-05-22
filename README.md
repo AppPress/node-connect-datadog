@@ -14,7 +14,7 @@ Add middleware immediately before your router.
 
 All options are optional.
 
-* `dogstatsd` node-dogstatsd client. `default = new (require("node-dogstatsd")).StatsD()`
+* `dogstatsd` node-dogstatsd client. `default = new (require("hot-shot")).StatsD()`
 * `stat` *string* name for the stat. `default = "node.express.router"`
 * `tags` either:
 	* *array* of tags to be added to the histogram
