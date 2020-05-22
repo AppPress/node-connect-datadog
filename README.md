@@ -7,14 +7,14 @@ Datadog middleware for Connect JS / Express
 
 Add middleware immediately before your router.
 
-	app.use(require("connect-datadog")({}));
+	app.use(require("@mergermarket/connect-datadog")({}));
 	app.use(app.router);
 
 ## Options
 
 All options are optional.
 
-* `dogstatsd` node-dogstatsd client. `default = new (require("node-dogstatsd")).StatsD()`
+* `dogstatsd` node-dogstatsd client. `default = new (require("hot-shot")).StatsD()`
 * `stat` *string* name for the stat. `default = "node.express.router"`
 * `tags` either:
 	* *array* of tags to be added to the histogram
@@ -28,5 +28,5 @@ All options are optional.
 
 ## License
 
-View the [LICENSE](https://github.com/AppPress/node-connect-datadog/blob/master/LICENSE) file.
+View the [LICENSE](https://github.com/mergermarket/node-connect-datadog/blob/master/LICENSE) file.
 
