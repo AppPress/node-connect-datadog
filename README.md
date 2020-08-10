@@ -20,7 +20,7 @@ All options are optional.
 	* *array* of tags to be added to the histogram
 	* *function* that takes `req` and `res`, returning an array of tags
 	* `default = []`
-* `map_route_tag`: *function* `(routeTagValue: string) => string`
+* `route_tag`: *function* `(req, res) => string` - generates `route` tag value if set
 * `path` *boolean* include path tag. `default = false`
 * `method` *boolean* include http method tag. `default = false`
 * `protocol` *boolean* include protocol tag. `default = false`
