@@ -1,11 +1,14 @@
 {
-	"name": "connect-datadog",
-	"version": "0.0.6",
+	"name": "@mergermarket/connect-datadog",
+	"version": "0.2.0",
 	"description": "Datadog middleware for Connect JS / Express",
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/AppPress/node-connect-datadog.git"
+		"url": "git://github.com/mergermarket/node-connect-datadog.git"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
 	},
 	"keywords": [
 		"datadog",
@@ -15,6 +18,6 @@
 	"license": "MIT",
 	"readmeFilename": "README.md",
 	"dependencies": {
-		"node-dogstatsd": "0.0.6"
+		"hot-shots": "^7.4.2"
 	}
 }
